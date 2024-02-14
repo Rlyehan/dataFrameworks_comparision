@@ -1,0 +1,33 @@
+Results from: basic_parquet.py
+Component                Time (seconds)      Fraction of Total
+load_data                5.0857              0.0237
+aggregations             3.8428              0.0179
+correlation_and_outliers 0.2930              0.0014
+ts_analysis              205.3808            0.9570
+total                    214.6022            1.0000
+
+Results from: basic.py
+Component                Time (seconds)      Fraction of Total
+load_data                8.7187              0.0259
+aggregations             3.8394              0.0114
+correlation_and_outliers 0.2798              0.0008
+ts_analysis              324.2005            0.9619
+total                    337.0385            1.0000
+
+Results from: basic_csv_to_parquet.py
+Component                Time (seconds)      Fraction of Total
+csv_to_parquet           6.5284              0.0299
+load_data                5.5396              0.0253
+aggregations             3.8568              0.0176
+correlation_and_outliers 0.2932              0.0013
+ts_analysis              202.4410            0.9258
+total                    218.6590            1.0000
+
+Results from: pandas_optimizations.py
+Component                Time (seconds)      Fraction of Total
+csv_to_parquet           6.1402              0.3229
+load_data                5.6798              0.2987
+aggregations             0.5806              0.0305
+correlation_and_outliers 0.2903              0.0153
+ts_analysis              6.3234              0.3326
+total                    19.0142             1.0000
